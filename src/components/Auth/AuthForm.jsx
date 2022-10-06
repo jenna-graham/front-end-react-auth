@@ -67,7 +67,7 @@ export default function AuthForm({ mode = 'signin' }) {
             <p className="error">{error}</p>
 
             <nav>
-                <Link to={type.switch.link}>{type.switch.prompt}</Link>
+                <Link className={styles.Link} to={type.switch.link}>{type.switch.prompt}</Link>
             </nav>
         </form>
     );
